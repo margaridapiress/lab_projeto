@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="container-fluid">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">  <!-- LIGAÇÃO AOS FICHEIROS DE ESTILOS PRÓPRIOS -->
+    <title>Cenáro beata</title>
+</head>
+
+<body>
+
+
+<div> <!-- cenário 1  //  necessário colocar img de background -->
+   <!-- <p> "Está um grupo de pessoas a fumar e a passear. Uma das pessoas acaba o cigarro.”</p> -- não faz sentido! (aparece + a baixo)-->
+</div>
+
+<!-- zoom no cigarro a acabar e a deitar fumo-->
+
+<!-- POP-UP 1 (java) -->
+<div class="popup" id="popup">
+    <p>Sabias que... <br> Um único cigarro aceso, liberta mais de <strong>7.000 substâncias</strong> no ar. Entre elas, o polônio-210, historicamente usado em armas nucleares, é um <strong>elemento radioativo altamente perigoso</strong> que pode causar danos devastadores ao corpo humano. Como <strong>emite radiação</strong>  alta o suficiente para <strong>destruir células</strong> quando inalado ou ingerido, aumenta assim o risco de cancro do pulmão em fumantes, e fumantes passivos.</p>
+    <button id="closePopup">Fechar</button>
+</div>
+
+
+<div> <!-- cenário 1  //  necessário colocar img de background -->
+    <p> Está um grupo de pessoas a fumar e a passear. Uma das pessoas acaba o cigarro.</p>
+</div>
+
+<div> <!-- questão 1  //  necessário colocar img de background-->
+    <p> Na realidade, o que achas que vai acontecer? </p>
+    <button> Colocá-lo no lixo </button>
+    <button> Deitá-lo para o chão </button>
+</div>
+
+<div> <!-- opção: colocá-lo no lixo-->
+    <p> Fizeste uma boa escolha! Masa achas mesmo que isso iria acontecer? </p>
+    <button> Voltar atrás </button> <!-- voltar para pop up anterior-->
+    <button> Continuar com a minha escolha inicial </button> <!-- ir para infos relacionadas com campanhas-->
+</div>
+
+<div> <!-- opção: Deitá-lo para o chão  //  POP-UP 2-->
+    <div class="popup" id="popup">
+    <p>Sabias que... <br> Todos os anos, cerca de <strong>4,5 trilhões</strong> de beatas de cigarro são descartadas no chão no mundo, tornando-as o <strong>lixo mais comum no planeta</strong>. Este número equivale à cobertura de mais de 250 campos de futebol inteiros só com beatas!</p>
+    <button id="closePopup">Fechar</button>
+</div>
+
+
+
+    <div> <!-- cenário 2-->
+        <p> Uma pessoa vai a andar na rua e vê a beata no chão. O que achas que vai fazer?</p>
+        <button> Tomar uma atitude</button>
+        <button> Passar sem fazer nada</button>
+    </div>
+
+    <div> <!-- Tomar uma atitude  //  POP-UP 3 -->
+        <div class="popup" id="popup">
+            <p> Infelizmente, isso não acontece... <br> No entanto, sabias que... <br> Em média, <strong>34% do lixo</strong> todo em ruas urbanas, é composto por beatas de cigarro? Numa caminhada de 1 kilômetro numa cidade grande, é possível encontrar mais de 100 beatas!        </p>
+            <button id="closePopup">Fechar</button>
+    </div>
+
+    <div> <!-- passar sem fazer nada  // POP-UP 4-->
+        <div class="popup" id="popup">
+            <p> Sabias que... <br> Uma única beata pode levar até <strong>10 anos</strong> para se decompor completamente, e enquanto isso, liberta substâncias tóxicas como nicotina, chumbo e arsênio no solo e na água.Apesar de serem pequenas, juntas, as beatas libertam mais de <strong>1 milhão de tonelada</strong> de poluentes no meio ambiente anualmente. </p>
+            <button id="closePopup">Fechar</button>
+    </div>
+
+
+
+        <div> <!-- cenário 3 -->
+           <!-- <p>Depois de alguns dias de muita chuva a beata foi arrastada para uma sarjeta de esgoto...</p> -->
+        </div>
+
+
+        <div>  <!-- POP-UP 5-->
+            <div class="popup" id="popup">
+                <p>As sarjetas são portais diretos para rios, lagos e oceanos, levando resíduos urbanos, como as beatas, para corpos d'água sem qualquer tipo de tratamento. Uma pesquisa descobriu que cerca de <strong>30% do lixo plástico</strong> encontrado em praias é composto por filtros de cigarro, mostrando como o problema começa nas cidades e termina no mar.</p>
+                <button id="closePopup">Fechar</button>
+        </div>
+
+
+
+
+       <div> <!-- cenário 3 -->
+           <p>Depois de alguns dias de muita chuva a beata foi arrastada para uma sarjeta de esgoto...</p>
+       </div>
+
+        <div> <!-- questão 2-->
+            <p>Quantos litros de água é que achas uma beata pode contaminar?</p>
+            <button>50 litros de água doce </button> <!-- pop-up 6 -->
+            <button>50 litros de água salgada </button> <!--tenta outra vez -->
+            <button>8 litros de água doce </button> <!-- opção certa-->
+            <button>8 litros de água salgada </button> <!--pop-up 7 -->
+        </div>
+
+        <div> <!--POP-UP tenta outra vez-->
+            <div class="popup" id="popup">
+                 <p>Tenta outra vez!</p>
+                 <button id="closePopup">Fechar</button>
+            </div>
+       </div>
+
+        <div> <!--POP-UP 6-->
+            <div class="popup" id="popup">
+                <p>Sabias que...<br> 50 litros de água doce corresponde à quantidade suficiente de água para abastecer <strong>uma pessoa</strong> com água potável por cerca de <strong>6 meses</strong> ? <br> Os produtos químicos que se libertam durante a decomposição da beata (nicotina, chumbo, arsênio, etc...) são extremamente difíceis de remover completamente no processo de tratamento da água. <br> Quando estes contaminantes não são removidos completamente, podem chegar até as torneiras, expondo as pessoas a <strong>riscos de saúde</strong> , como envenenamento por metais pesados e <strong>problemas respiratórios</strong> .</p>
+                <button id="closePopup">Fechar</button>
+            </div>
+        </div>
+
+        <div>  <!--POP-UP 7-->
+            <<div class="popup" id="popup">
+                <p> As beatas libertam substâncias químicas tóxicas, e metais como o cádmio e chumbo, que quando ingeridas ou absorvidas por pequenos organismos marinhos, como plânctons e moluscosque <strong>não são eliminados facilmente</strong>  nos seus organismos. Estas espécies são a base da cadeia alimentar, e suas toxinas <strong>acumulam-se nos tecidos</strong> dos peixes maiores, como o salmão e o atum, que acabam nos nossos pratos. Quando ingeridos por humanos, podem <strong>causar danos neurológicos, renais e hepáticos.</strong> </p>
+                <button id="closePopup">Fechar</button>
+        </div>
+
+
+
+
+            <div>  <!-- informação sobre campanhas-->
+                <h2> campanhas relacionadas</h2>  <!-- colocar link para um site-->
+                <button> Continuar </button>
+            </div>
+
+
+
+
+</body>
