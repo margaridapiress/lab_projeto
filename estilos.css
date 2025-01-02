@@ -1,24 +1,41 @@
 body{
     font-size: 20px;
+    text-align: center;
 }
 
 .popupe{
     border: 4px solid #a6cbff;
     border-radius: 10px;
+    margin: 10px;
+}
+
+.popupe p{
+    padding: 20px;
 }
 
 .popupb{
     border: 4px solid #ffcf86;
     border-radius: 10px;
+    margin: 10px;
+}
+
+.popupb p{
+    padding: 20px;
 }
 
 .popupp{
-    border: 4px solid #bbc897;border-radius: 10px;
+    border: 4px solid #bbc897;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.popupp p{
+    padding: 20px;
 }
 
 button{
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid #c89c7d;
     font-weight: 600;
     margin: 4px;
@@ -27,10 +44,17 @@ button{
 /*colocar botões à direita - para popups */
 .botaodireita{
     float: right;  /* Alinha o botão à esquerda */
-    padding: 10px 20px; /* Estilos do botão */    /* NÃO ESTÁ A FUNCIONARRRRRRR!!!! */
+    padding: 10px; /* Estilos do botão */
 }
 
 .campanhas{
     font-weight: 600;
     text-transform: uppercase;
 }
+
+/*colocar divs restritas ao tamanho do conteúdo  */
+
+div{
+    display: inline-block;
+}
+
