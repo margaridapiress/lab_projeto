@@ -1,3 +1,7 @@
+body{
+    font-size: 20px;
+}
+
 .popupe{
     border: 4px solid #a6cbff;
     border-radius: 10px;
@@ -8,7 +12,7 @@
     border-radius: 10px;
 }
 
-.popupb{
+.popupp{
     border: 4px solid #bbc897;border-radius: 10px;
 }
 
@@ -23,5 +27,10 @@ button{
 /*colocar botões à direita - para popups */
 .botaodireita{
     float: right;  /* Alinha o botão à esquerda */
-    padding: 10px 20px; /* Estilos do botão */
+    padding: 10px 20px; /* Estilos do botão */    /* NÃO ESTÁ A FUNCIONARRRRRRR!!!! */
+}
+
+.campanhas{
+    font-weight: 600;
+    text-transform: uppercase;
 }
