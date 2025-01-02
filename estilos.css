@@ -8,10 +8,11 @@ body{
     background-color: #C89C7D
 }
 .body_entrada1{
-        background-image: url('.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    background-image: url('imgs/entrada/fundo_entrada1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 500px;
 }
 
 #h1{
