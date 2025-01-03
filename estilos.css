@@ -1,19 +1,35 @@
 body{
     font-family: "Lato", serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
 .body_entrada{
     background-color: #C89C7D
 }
+.body_entrada1{
+    background-image: url('imgs/entrada/fundo_entrada1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 500px;
+}
+
 #h1{
     text-align: center;
     color: white;
-    padding-top: 300px;
+    padding-top: 250px;
     text-transform: uppercase;
-
-
+}
+.button_entrada{
+    background-color: white;
+    color: #C89C7D;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 .popupe{
@@ -73,9 +89,13 @@ div{
 
 /*só para ver se funciona */
 
+<<<<<<< HEAD
 #imagemfundo1 {
     background-image: url('beata images/img.png'); /* Substitua pelo caminho da imagem */
     background-size: cover; /* A imagem cobre todo o fundo */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-position: center; /* Centraliza a imagem no fundo */
 }
+
+/*só para ver se funciona */
+
