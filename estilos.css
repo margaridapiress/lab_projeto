@@ -91,7 +91,7 @@ div{
 
 <<<<<<< HEAD
 #imagemfundo1 {
-    background-image: url('beata images/img.png'); /* Substitua pelo caminho da imagem */
+    background-image: url(imgs/beata/parque1.png); /* Substitua pelo caminho da imagem */
     background-size: cover; /* A imagem cobre todo o fundo */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-position: center; /* Centraliza a imagem no fundo */
