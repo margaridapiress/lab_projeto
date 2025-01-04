@@ -259,11 +259,35 @@ button{
     float: right;  /* Alinha o botão à esquerda */
     padding: 10px; /* Estilos do botão */
 }
+ /* estilizar pagina das campanhas*/
 
-.campanhas{
-    font-weight: 600;
+#bodycampanha{
+    background-color: #c89c7d;
+    color: #FFFFFF;
+}
+
+#bodycampanha h2{
     text-transform: uppercase;
 }
+
+#bodycampanha div{
+    display: flex; /* Define o layout em linha */
+    flex-wrap: nowrap; /* Garante que o conteúdo não quebre para a linha de baixo */
+    justify-content: space-between; /* Espaçamento igual entre o texto e a imagem */
+    box-sizing: border-box;
+    margin: 80px;
+}
+
+#bodycampanha img{
+    max-height: 300px; /* Limitação da altura */
+    object-fit: contain; /* Mostra a imagem inteira */
+}
+
+
+#bodycampanha img, #bodycampanha p {
+    flex: 1; /* Garante que cada um ocupe metade do espaço */
+}
+
 
 /*colocar divs restritas ao tamanho do conteúdo  */
 
